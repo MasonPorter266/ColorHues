@@ -6,3 +6,20 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     padding:0;
     border:0;
 }
+
+.Hueheader {
+    height: 100vh;
+    background-color: dodgerblue;
+    background-image: url(#);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.Hueheader h1 {
+    text-align: center;
+}
+
+.Huebody {
+    height: 100vh;
+}
