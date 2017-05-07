@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Possible Background Images:
+https://static1.squarespace.com/static/58544e1b197aeadc457333c8/t/58547b5df5e2316a52dea650/1481931616480/Holifusion_colour_explosion_2.jpg?format=2500w
+
+http://1.bp.blogspot.com/-f2vcgXIDl0o/Ucc9Xduj7fI/AAAAAAAAbNQ/yBLWgYt1H8s/s1600/Blue+Colors+Wallpapers8.jpg
+
+https://userscontent2.emaze.com/images/7f33763c-627a-49c5-b58e-721b9e401c5a/ef6a410e-5a1c-4e39-b096-5ba9a83c2237.jpg
+*/
+
 body, ul, li, h1, h2, h3, h4, h5, h6{
     margin:0;
     padding:0;
@@ -9,17 +17,67 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
 
 .Hueheader {
     height: 100vh;
-    background-color: dodgerblue;
-    background-image: url(#);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-color: transparent;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("#") no-repeat;
+    background-size: cover; 
+    background-position: center;
 }
 
 .Hueheader h1 {
     text-align: center;
+    font-size: 135px;
+    color: white;
+    padding-top: 35vh;
+    font-family: 'Indie Flower', cursive;
 }
 
-.Huebody {
+.Hueheader h2 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Hue1 {
     height: 100vh;
+    background-color: white;
+}
+
+.Hue2 {
+    height: 100vh;
+    background-color: darkgray;
+}
+
+.Huefooter {
+    height: 15vh;
+    background-color: white;
+}
+
+.Huefooter h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 4vh;
+}
+
+.Huefooter h4 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 2px;
 }
