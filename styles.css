@@ -3,10 +3,6 @@
 
 /* Possible Background Images:
 https://static1.squarespace.com/static/58544e1b197aeadc457333c8/t/58547b5df5e2316a52dea650/1481931616480/Holifusion_colour_explosion_2.jpg?format=2500w
-
-http://1.bp.blogspot.com/-f2vcgXIDl0o/Ucc9Xduj7fI/AAAAAAAAbNQ/yBLWgYt1H8s/s1600/Blue+Colors+Wallpapers8.jpg
-
-https://userscontent2.emaze.com/images/7f33763c-627a-49c5-b58e-721b9e401c5a/ef6a410e-5a1c-4e39-b096-5ba9a83c2237.jpg
 */
 
 body, ul, li, h1, h2, h3, h4, h5, h6{
@@ -22,7 +18,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url('images/WhiteColorLoading.gif') 50% 50% no-repeat rgb(249,249,249);
+	background: url('images/BlankColorLoading.gif') 50% 50% no-repeat rgb(249,249,249);
 }
 
 .Hueheader {
@@ -30,7 +26,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     background-color: transparent;
 }
 
-video#bgvid { 
+.bgvid { 
     position: fixed;
     top: 50%;
     left: 50%;
