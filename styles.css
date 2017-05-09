@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Possible Background Images:
-https://static1.squarespace.com/static/58544e1b197aeadc457333c8/t/58547b5df5e2316a52dea650/1481931616480/Holifusion_colour_explosion_2.jpg?format=2500w
-*/
-
 body, ul, li, h1, h2, h3, h4, h5, h6{
     margin:0;
     padding:0;
@@ -59,14 +55,49 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     font-family: 'Indie Flower', cursive;
 }
 
+.Huebody {
+    background-color: white;
+}
+
 .Hue1 {
     height: 100vh;
-    background-color: white;
+    background-color: #ea8482;
 }
 
 .Hue2 {
     height: 100vh;
-    background-color: darkgray;
+    background-color: #af98dd;
+}
+
+.Hue3 {
+    height: 60vh;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Hue3 h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Hue3 h2{
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Hue3 h3{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Hue3 h4{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .Huefooter {
