@@ -59,15 +59,40 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     background-color: white;
 }
 
+.Hue1body {
+    background-color: #88cc66;
+}
+
 .Hue1 {
     height: 100vh;
-    background-color: #ea8482;
+    background-color: #88cc66;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Hue1 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Hue2body {
+    background-color: #66aaaa;
 }
 
 .Hue2 {
     height: 100vh;
-    background-color: #af98dd;
+    background-color: #66aaaa;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+.Hue2 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Indie Flower', cursive;
+}
+
 
 .Hue3 {
     height: auto;
@@ -103,7 +128,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
 .Huefooter {
     height: auto;
     background-color: white;
-    padding-bottom: 35px;
+    padding-bottom: 5px;
 }
 
 .Huefooter h3 {
@@ -118,4 +143,13 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     font-size: 18px;
     font-family: 'Indie Flower', cursive;
     padding-top: 2px;
+}
+
+.SocialLinks {
+    height: auto;
+    text-align: center;
+}
+
+.SocialLinks a:hover {
+    background-position: 0 0;
 }
