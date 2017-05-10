@@ -76,12 +76,35 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     font-family: 'Indie Flower', cursive;
 }
 
+.Hue1Section1 {
+    width: 60%;
+    float: left
+}
+
+.Hue1Section1 h2{
+    padding-top: 20px;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Hue1Section1 h3{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+}
+
+.Hue1Section2 {
+    width: 40%;
+    float: right;
+}
+
 .Hue2body {
     background-color: #66aaaa;
 }
 
 .Hue2 {
-    height: 100vh;
+    height: 110vh;
     background-color: #66aaaa;
     margin-left: 5%;
     margin-right: 5%;
