@@ -64,7 +64,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
 }
 
 .Hue1 {
-    height: 100vh;
+    height: auto;
     background-color: #88cc66;
     margin-left: 5%;
     margin-right: 5%;
@@ -76,22 +76,15 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     font-family: 'Indie Flower', cursive;
 }
 
-.Hue1Section1 {
-    width: 60%;
-    float: left
-}
-
-.Hue1Section1 h2{
-    padding-top: 20px;
-    text-align: left;
-    font-size: 40px;
+.Hue1 h2{
+    font-size: 32px;
     font-family: 'Indie Flower', cursive;
 }
 
-.Hue1Section1 h3{
-    text-align: left;
-    font-size: 26px;
-    font-family: 'Muli', sans-serif;
+.Hue1 h3{
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 15px;
 }
 
 .Hue1Section2 {
@@ -114,6 +107,17 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     text-align: center;
     font-size: 60px;
     font-family: 'Indie Flower', cursive;
+}
+
+.Hue2 h2{
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Hue2 h3{
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 15px;
 }
 
 
