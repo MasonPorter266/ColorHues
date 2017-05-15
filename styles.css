@@ -17,6 +17,13 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
 	background: url('images/BlankColorLoading.gif') 50% 50% no-repeat rgb(249,249,249);
 }
 
+.right {
+    float: right;
+    width: 40%;
+    height: auto;
+    padding-left: 20px;
+}
+
 .Hueheader {
     height: 100vh;
     background-color: transparent;
@@ -40,6 +47,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     background-position: center;
 }
 
+/* ------------------Header------------------ */
 .Hueheader h1 {
     text-align: center;
     font-size: 135px;
@@ -55,6 +63,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     font-family: 'Indie Flower', cursive;
 }
 
+/* ------------------Color Body------------------ */
 .Huebody {
     background-color: white;
 }
@@ -87,17 +96,13 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     padding-bottom: 15px;
 }
 
-.Hue1Section2 {
-    width: 40%;
-    float: right;
-}
-
+/* ------------------Hexadecimal Body------------------ */
 .Hue2body {
     background-color: #66aaaa;
 }
 
 .Hue2 {
-    height: 110vh;
+    height: auto;
     background-color: #66aaaa;
     margin-left: 5%;
     margin-right: 5%;
@@ -120,7 +125,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     padding-bottom: 15px;
 }
 
-
+/* ------------------Credits------------------ */
 .Hue3 {
     height: auto;
     background-color: white;
@@ -152,6 +157,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     font-family: 'Indie Flower', cursive;
 }
 
+/* ------------------Footer------------------ */
 .Huefooter {
     height: auto;
     background-color: white;
@@ -172,6 +178,7 @@ body, ul, li, h1, h2, h3, h4, h5, h6{
     padding-top: 2px;
 }
 
+/* ------------------Social Links------------------ */
 .SocialLinks {
     height: auto;
     text-align: center;
